@@ -4,7 +4,6 @@ uint64_t collatz_orbit(uint64_t n, uint64_t k) {
     if (n==0) {
         return 0;
     }
-
     uint64_t i;
     for (i=0; i<k; i++) {
         if (n%2==0) {
